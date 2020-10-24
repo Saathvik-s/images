@@ -1,3 +1,2 @@
 let three
-three = Math.sin(2)
-alert(three)
+console.log(1)
