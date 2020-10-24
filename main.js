@@ -1,3 +1,8 @@
 let three
-console.log(1)
-alert('hello')
+function setup(){
+	createCanvas(400,400)
+}
+
+function draw(){
+	background(0)
+}
