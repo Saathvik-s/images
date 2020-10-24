@@ -9,4 +9,7 @@ function draw(){
   if(mouseIsPressed){
     ellipse(mouseX,mouseY,200,200)  
   }
+  else {
+    rect(mouseX,mouseY,100,100)
+  }
 }
