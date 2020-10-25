@@ -1,5 +1,4 @@
 let three;
-let controls;
 
 function setup() {
   noCanvas();
@@ -10,10 +9,7 @@ function setup() {
 function draw() {
   var speed = Date.now() * 0.00025;
   three.renderer.render(three.scene, three.cam);
-  // three.cam.position.x = Math.cos(speed) * 5;
-  // three.cam.position.z = Math.sin(speed) * 5;
-  // // three.cam.lookAt(0,0,0)
-  // three.cam.lookAt(three.scene.position)
+
 }
 
 class Three {
@@ -81,7 +77,7 @@ class Three {
     //       map: front
     //     }))
 
-    this.scene.background = new THREE.CubeTextureLoader().load(['./skybox_lf.png','./skybox_rt.png','./skybox_up.png','./skybox_dn.png','./skybox_bk.png','./skybox_ft.png'])
+    this.scene.background = new THREE.CubeTextureLoader().load(['skybox_lf.png','skybox_rt.png','skybox_up.png','skybox_dn.png','skybox_bk.png','skybox_ft.png'])
     //let skybox = new THREE.Mesh(skyboxGeo, eAtRu4C.jpg[left_tx,right_tx,up_tx,down_tx,back_tx,front_tx]);
     //skybox.material.needsUpdate = true
     //this.scene.add(skybox);
