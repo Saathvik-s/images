@@ -5,7 +5,6 @@ function setup() {
   noCanvas();
   three = new Three();
   three.skybox();
-  controls = new THREE.OrbitControls(three.cam, three.renderer.domElement);
 }
 
 function draw() {
@@ -26,7 +25,7 @@ class Three {
       45,
       30000
     );
-    this.cam.position.set(1200, -250, 20000);
+   
     this.renderer = new THREE.WebGLRenderer({
       antialias: true
     });
