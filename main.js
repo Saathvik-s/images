@@ -82,7 +82,7 @@ class Three {
     //       map: front
     //     }))
 
-    this.scene.background = new THREE.CubeTextureLoader().load(['https://raw.githubusercontent.com/Saathvik-s/three-game-testing/main/skybox_lf.png','https://raw.githubusercontent.com/Saathvik-s/three-game-testing/main/skybox_lf.png','https://raw.githubusercontent.com/Saathvik-s/three-game-testing/main/skybox_lf.png','https://raw.githubusercontent.com/Saathvik-s/three-game-testing/main/skybox_lf.png','https://raw.githubusercontent.com/Saathvik-s/three-game-testing/main/skybox_lf.png','https://raw.githubusercontent.com/Saathvik-s/three-game-testing/main/skybox_lf.png'])
+    this.scene.background = new THREE.CubeTextureLoader().load(['./skybox_lf.png','./skybox_rt.png','./skybox_up.png','./skybox_dn.png','./skybox_bk.png','./skybox_ft.png'])
     //let skybox = new THREE.Mesh(skyboxGeo, eAtRu4C.jpg[left_tx,right_tx,up_tx,down_tx,back_tx,front_tx]);
     //skybox.material.needsUpdate = true
     //this.scene.add(skybox);
